@@ -1,0 +1,28 @@
+@media(max-width: 768px){
+  html{
+      font-size: 87.5%;
+  }
+  .wrapper{
+      grid-template-columns: 1fr;
+  }
+}
+
+#form-container{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+textarea{
+  width: 300px;
+  resize: vertical;
+  line-height: 0.8rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+button {
+ height: fit-content;
+ 
+}

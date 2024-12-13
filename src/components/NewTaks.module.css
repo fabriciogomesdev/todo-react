@@ -1,0 +1,11 @@
+.taskInput{
+    width: 23rem;
+    height: 3,375rem;
+    background: var(--gray-500);
+
+    
+}
+
+.taskInput ::placeholder{
+    color: blue;
+}
